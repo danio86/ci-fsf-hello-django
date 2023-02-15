@@ -19,5 +19,5 @@ from todo.views import sey_hello
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('hello/', sey_hello, name='hello')
+    path('hello/', say_hello, name='hello')
 ]
